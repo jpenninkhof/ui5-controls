@@ -36,8 +36,8 @@ function (Calendar) {
 			this.fireEvent(
 				"monthChanged", 
 				{ 
-					year: month.getDate().getMonth(), 
-					month: month.getDate().getFullYear()
+					year: month.getDate().getFullYear(), 
+					month: month.getDate().getMonth()
 				});
 		},
 		
